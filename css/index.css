@@ -6,6 +6,9 @@
     text-transform: capitalize;
     
 }
+body {
+    padding: 30px 50px;
+}
 section.heading {
     min-height: 100vh;
    /* ; background: url('img/mac2.jpeg') center center/cover no-repeat */
@@ -21,7 +24,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 30px 50px;
 }
 header .fa-bars {
     padding-top: 20px;
@@ -87,7 +89,6 @@ h1 span {
     font-size: 20px;
 }
 .features {
-    padding: 30px 50px;
     min-height: 100vh;
 }
 .blocks {
@@ -100,19 +101,19 @@ h1 span {
 .responsive {
     min-height: 250px;
     background-color:  rgb(109, 248, 232);
-    width: 350px;
+    max-width: 350px;
     padding: 30px;
 }
 .support {
     min-height: 300px;
     background-color: rgb(109, 117, 254);
-    width: 400px;
+    max-width: 400px;
     padding: 30px;
 }
 .coded {
     min-height: 250px;
     background-color:  rgb(109, 248, 232);
-    width: 350px;
+    max-width: 350px;
     padding: 30px;  
 }
 .icon {
@@ -139,17 +140,18 @@ h1 span {
     border-radius: 50%;
 }
 .service_offer {
-    width: 100%;
-    padding: 40px 60px;
+    /* padding: 40px 60px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* flex-wrap: wrap; */
     margin-top: 100px;
+  
 }
 .offers {
     padding-left: 70px;
-    line-height: 50px;
-    width: 50vw;   
+    line-height: 50px;  
+    width: 45vw;
 }
 .offer {
     font-size: 20px;   
@@ -163,7 +165,8 @@ h1 span {
     margin-top: 80px; 
 }
 img {
-   width: 40vw;   
+    display: block;
+    width: 35vw;   
 }
 .btn {
     display: flex;
