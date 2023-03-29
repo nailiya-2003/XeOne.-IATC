@@ -9,7 +9,6 @@
 
 section.heading {
     min-height: 100vh;
-   /* ; background: url('img/mac2.jpeg') center center/cover no-repeat */
     background: linear-gradient(rgba(207, 243, 247, 0.9), rgba(155, 244, 254, 0.3)), url('img/mac2.jpeg');
     background-position: center;
     background-position: no-repeat;
@@ -23,6 +22,7 @@ section.heading {
 header {
     width: 100%;
     min-height: 50px;
+    padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -98,7 +98,7 @@ h1 span {
     align-items: center;
     justify-content: center;
     min-height: 300px;
-    margin-top: -180px;
+    margin-top: -150px;
 }
 .responsive {
     min-height: 250px;
