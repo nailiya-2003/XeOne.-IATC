@@ -6,9 +6,7 @@
     text-transform: capitalize;
     
 }
-body {
-    padding: 30px 50px;
-}
+
 section.heading {
     min-height: 100vh;
    /* ; background: url('img/mac2.jpeg') center center/cover no-repeat */
@@ -17,6 +15,10 @@ section.heading {
     background-position: no-repeat;
     background-size: cover;
     background-position: top;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
 }
 header {
     width: 100%;
@@ -89,7 +91,7 @@ h1 span {
     font-size: 20px;
 }
 .features {
-    min-height: 100vh;
+    min-height: 850px;
 }
 .blocks {
     display: flex;
